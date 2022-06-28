@@ -58,7 +58,7 @@ function CodeBlock(props) {
 
   return (
     <Box position='relative' zIndex='0'>
-      <CodeContainer px='0' overflow='hidden'>
+      <CodeContainer px='0' overflowX='auto'>
         <Highlight
           codeString={rawCode}
           language={language}

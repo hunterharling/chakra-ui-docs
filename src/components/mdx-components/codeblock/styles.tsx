@@ -2,7 +2,7 @@ import React from 'react'
 
 export const liveEditorStyle: React.CSSProperties = {
   fontSize: 14,
-  overflowX: 'auto',
+  overflow: 'visible',
   fontFamily: 'SF Mono, Menlo, monospace',
 }
 
